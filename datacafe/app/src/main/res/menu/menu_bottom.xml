@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/berita"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Info"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/cafe"
+        android:icon="@drawable/ic_baseline_local_cafe_24"
+        android:title="Kopi"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/pelanggan"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="Customer"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="always|withText"/>
+</menu>

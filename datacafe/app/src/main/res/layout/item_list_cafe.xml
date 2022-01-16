@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtPemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pesanan"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtKeterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="note"
+        android:textColor="#000"
+        android:textSize="24sp" />
+</LinearLayout>
